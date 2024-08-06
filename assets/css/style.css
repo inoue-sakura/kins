@@ -1,1 +1,885 @@
+html {
+    font-size: 62.5%;
+}
 
+img {
+    width: 100%;
+}
+
+body {
+    color: #473732;
+    font-size: 1.2rem;
+    font-family: "Montserrat", "Zen Kaku Gothic New", sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+    margin: 1.5em auto;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+h1 {
+    width: 5%;
+}
+
+header .menu_pc {
+    margin-left: auto;
+}
+
+header .menu ul li {
+    padding-right: 0.7em;
+}
+
+#cover .swiper-slide {
+    position: relative;
+}
+
+#cover .swiper-slide p {
+    position: absolute;
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.12em;
+    transform: translate(-50%, -50%);
+}
+
+#cover .swiper-slide .slide_p1 {
+    top: 90%;
+    left: 75%;
+}
+
+#cover .swiper-slide .slide_p2 {
+    text-align: center;
+    line-height: 1.5em;
+    top: 90%;
+    left: 50%;
+}
+
+#cover .swiper-slide .slide_p3 {
+    top: 90%;
+    left: 50%;
+}
+
+/* ページネーションのセレクタ */
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #f1f1f1;
+}
+
+/* アクティブ中のページネーションのセレクタ */
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #000;
+}
+
+.nav {
+    display: none;
+}
+
+.about_movie .movie {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.movie>video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.about_movie {
+    position: relative;
+}
+
+.about_movie p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.movie_text_title {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+    top: 40%;
+    left: 50%;
+}
+
+.movie_text_sub_pc {
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    top: 75%;
+    left: 50%;
+}
+
+.movie_text_sub_sp {
+    display: none;
+}
+
+main section {
+    margin: 15em auto 0;
+}
+
+main .about {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5em;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+main .about img {
+    width: 550px;
+}
+
+main .about_title {
+    color: #473732;
+    letter-spacing: 0.15em;
+    margin-top: 1em;
+}
+
+main .about_text {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: #2D2320;
+    margin-top: 0.4em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+#product {
+    max-width: 1200px;
+}
+
+#product figure {
+    width: 190px;
+    text-align: center;
+}
+
+#product figure img {
+    border-radius: 5%;
+}
+
+#product ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product ul li {
+    margin: 1em 1em;
+}
+
+#product figcaption {
+    padding-top: 1em;
+}
+
+#bestseller {
+    width: 100vw;
+    max-width: 1200px;
+}
+
+#bestseller figure {
+    width: 410px;
+    margin-bottom: 5em;
+}
+
+#bestseller ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 10em;
+}
+
+#bestseller figure img {
+    border-radius: 5%;
+}
+
+#bestseller figcaption span {
+    display: block;
+    padding-top: 1em;
+}
+
+#bestseller .best_name {
+    font-size: 2em;
+}
+
+#bestseller .best_text {
+    color: #473732;
+    letter-spacing: 0.1em;
+}
+
+#instagram {
+    width: 100vw;
+    background-color: #ddd4cc;
+    padding: 5em 0;
+}
+
+#instagram .instagram_img {
+    max-width: 1200px;
+}
+
+#instagram div {
+    text-align: center;
+}
+
+#instagram img {
+    width: 300px;
+}
+
+#instagram ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin: auto;
+}
+
+#instagram ul li {
+    padding-top: 3em;
+}
+
+.more {
+    border: solid 1px #707070;
+    border-radius: 50px;
+    padding: 1em 5em;
+    width: fit-content;
+    margin: 3em auto;
+}
+
+#topics {
+    width: 100vw;
+    max-width: 1200px;
+}
+
+#topics ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#topics .viewall {
+    text-align: right;
+    margin-bottom: 2em;
+}
+
+#topics figure {
+    width: 270px;
+}
+
+#topics figcaption {
+    color: #473732;
+    letter-spacing: 0.05em;
+    padding-top: 1em;
+    padding-left: 0.5em;
+}
+
+#news {
+    width: 100vw;
+}
+
+#news dl {
+    background-color: #F4F1EB;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    padding: 2em;
+}
+
+#news dl dt {
+    display: block;
+    width: 14em;
+}
+
+#news dl dd {
+    display: block;
+    width: 50%;
+}
+
+#kinswith {
+    position: relative;
+    margin-top: 15em;
+}
+
+#kinswith p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    top: 50%;
+    left: 50%;
+}
+
+footer .footer_logo {
+    width: 100px;
+}
+
+footer .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 5em;
+}
+
+footer .logo_kins {
+    border-bottom: solid 1px #000;
+    padding-bottom: 1.3em;
+}
+
+footer .logo_sns {
+    font-size: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0.3em;
+}
+
+footer .footer_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0 4em;
+}
+
+footer .footer_menu li {
+    padding-top: 1.3em;
+}
+
+footer .menu_title {
+    font-size: 1.2em;
+}
+
+footer .copyright_sp {
+    display: none;
+}
+
+footer .footer_sub {
+    color: #707070;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8em;
+}
+
+footer .footer_about ul {
+    display: flex;
+    gap: 0 4em;
+}
+
+@media screen and (min-width:1200px) {
+    header {
+        max-width: 1600px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .face-mask {
+        display: none;
+    }
+
+    #bestseller figure {
+        width: 300px;
+    }
+
+    .topics_04 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .menu_pc {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+        width: 20%;
+    }
+
+    .header_icon {
+        width: 20%;
+    }
+
+    header .header_icon ul li {
+        margin-left: 0;
+    }
+
+    .header_icon .icon_seach {
+        display: none;
+    }
+
+    header ul {
+        justify-content: space-evenly;
+    }
+
+    .header_icon span {
+        font-size: 1.8em;
+    }
+
+    .nav {
+        display: block;
+        text-align: left;
+        width: 20%;
+    }
+
+    /* ここから下がハンバーガーメニューに関するCSS */
+
+    /* チェックボックスを非表示にする */
+    .drawer_hidden {
+        display: none;
+    }
+
+    /* ハンバーガーアイコンの設置スペース */
+    .drawer_open {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* 重なり順を一番上にする */
+        cursor: pointer;
+    }
+
+    /* ハンバーガーメニューのアイコン */
+    .drawer_open span,
+    .drawer_open span:before,
+    .drawer_open span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background: #333;
+        transition: 0.5s;
+        position: absolute;
+        z-index: 999;
+    }
+
+    /* 三本線の一番上の棒の位置調整 */
+    .drawer_open span:before {
+        bottom: 8px;
+    }
+
+    /* 三本線の一番下の棒の位置調整 */
+    .drawer_open span:after {
+        top: 8px;
+    }
+
+    /* アイコンがクリックされたら真ん中の線を透明にする */
+    #drawer_input:checked~.drawer_open span {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+    #drawer_input:checked~.drawer_open span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+
+    #drawer_input:checked~.drawer_open span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+
+    /* メニューのデザイン*/
+    .nav_content {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0%;
+        right: 100%;
+        /* メニューを画面の外に飛ばす */
+        z-index: 99;
+        background: rgb(110, 110, 110);
+        transition: .5s;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .nav_item a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* アイコンがクリックされたらメニューを表示 */
+    #drawer_input:checked~.nav_content {
+        right: 0;
+        /* メニューを画面に入れる */
+    }
+
+    header .nav_content ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5em;
+    }
+
+    header .nav_content ul li {
+        font-size: 1.3em;
+        padding-top: 3em;
+    }
+
+    .nav .logo_sns_menu {
+        font-size: 1.7em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        color: #fff;
+        margin-top: 0em;
+    }
+
+    #cover .swiper-wrapper img {
+        display: none;
+    }
+
+    #cover .swiper-wrapper {
+        aspect-ratio: 120/232;
+    }
+
+    #cover .swiper-wrapper .swiper-slide {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #cover .swiper-wrapper .swiper-slide.item1 {
+        background-image: url(/image/top_sp01.jpeg);
+    }
+
+    #cover .swiper-wrapper .swiper-slide.item2 {
+        background-image: url(/image/top_sp02.jpeg);
+    }
+
+    #cover .swiper-wrapper .swiper-slide.item3 {
+        background-image: url(/image/top_sp03.jpeg);
+    }
+
+    #cover .swiper-slide p {
+        position: absolute;
+        font-size: 1.1em;
+        letter-spacing: 0.1em;
+        transform: translate(-50%, -50%);
+    }
+
+    #cover .swiper-slide .slide_p1 {
+        width: 100vw;
+        top: 90%;
+    }
+
+    #cover .swiper-slide .slide_p2 {
+        width: 100%;
+        text-align: center;
+        line-height: 1.3em;
+        top: 90%;
+    }
+
+    #cover .swiper-slide .slide_p3 {
+        text-align: center;
+        width: 60%;
+        top: 90%;
+        line-height: 1.3em;
+    }
+
+    .about_movie p {
+        width: 350px;
+    }
+
+    .movie_text_title {
+        font-size: 1.5em;
+        letter-spacing: 0.2em;
+    }
+
+    .movie_text_sub_pc {
+        display: none;
+    }
+
+    .movie_text_sub_sp {
+        display: block;
+        font-size: 1em;
+        letter-spacing: 0.08em;
+        line-height: 2em;
+        top: 75%;
+        left: 50%;
+    }
+
+    main section {
+        width: 100%;
+        margin: 9em auto 0;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    main .about {
+        margin-top: 0em;
+    }
+
+    main .about img {
+        width: 100%;
+        position: relative;
+    }
+
+    main .about li {
+        position: relative;
+        height: 237px;
+    }
+
+    main .about .about_problem {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+
+    main .about .about_value {
+        position: absolute;
+        top: 75%;
+        left: 40%;
+    }
+
+    main .about_text {
+        font-size: 0.8em;
+    }
+
+    .face-mask {
+        display: block;
+    }
+
+    #product figure {
+        width: 150px;
+        text-align: center;
+    }
+
+    #product ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #bestseller figure {
+        width: 250px;
+        margin-bottom: 5em;
+    }
+
+    #bestseller ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 5em;
+        margin-left: 3em;
+    }
+
+    #bestseller ul li {
+        flex-shrink: 0;
+    }
+
+    #bestseller figure img {
+        border-radius: 5%;
+    }
+
+    #bestseller figcaption span {
+        display: block;
+        padding-top: 1em;
+    }
+
+    #bestseller .best_name {
+        font-size: 2em;
+    }
+
+    #bestseller .best_text {
+        color: #473732;
+        letter-spacing: 0.1em;
+    }
+
+    #instagram .instagram_img {
+        width: 100%;
+    }
+
+    #instagram img {
+        width: 150px;
+    }
+
+    .more {
+        font-size: 0.7em;
+    }
+
+    .topics_04 {
+        display: block;
+    }
+
+    #topics figure {
+        width: 250px;
+    }
+
+    #topics ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: flex-start;
+        overflow-x: scroll;
+        gap: 5em;
+        margin-left: 3em;
+    }
+
+    #topics ul li {
+        flex-shrink: 0;
+    }
+
+    #topics .viewall {
+        text-align: right;
+        margin-bottom: 2em;
+    }
+
+    #topics figcaption {
+        color: #473732;
+        letter-spacing: 0.05em;
+        padding-top: 1em;
+        padding-left: 0.5em;
+    }
+
+    #news dl {
+        font-size: 0.8em;
+    }
+
+    #news dl {
+        background-color: #F4F1EB;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #news dl dt {
+        display: block;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    #news dl dd {
+        display: block;
+        width: 100%;
+    }
+
+    #kinswith {
+        margin-top: 9em;
+    }
+
+    #kinswith p {
+        font-size: 1.5em;
+    }
+
+    footer .footer_logo {
+        width: 70px;
+    }
+
+    footer .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .logo_kins {
+        border-bottom: solid 1px #000;
+        padding-bottom: 1.3em;
+    }
+
+    footer .logo_sns {
+        font-size: 1.5em;
+    }
+
+    footer .footer_menu {
+        display: none;
+    }
+
+    footer .copyright_pc {
+        display: none;
+    }
+
+    footer .copyright_sp {
+        display: block;
+        text-align: center;
+    }
+
+    footer .footer_sub {
+        color: #707070;
+        display: block;
+        margin-top: 5em;
+    }
+
+    footer .footer_about ul {
+        display: flex;
+        gap: 1.5em;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 5em;
+    }
+
+
+}
