@@ -726,8 +726,8 @@ footer .footer_about ul {
 
     #bestseller ul {
         display: flex;
-        flex-direction: row;
         flex-wrap: nowrap;
+        justify-content: flex-start;
         overflow-x: scroll;
         gap: 5em;
         margin-left: 3em;
